@@ -101,3 +101,89 @@ a {
 	left: 740px;
 	bottom: 350px;
 }
+
+/************ PROJECTS ************/
+
+#project-title {
+	position: relative;
+	margin: 0 auto;
+	top: 140px;
+	right: 220px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.image-cols {
+	position: relative;
+	float: left;
+	top: 200px;
+	right: 410px;
+}
+
+.item {
+	position: relative;
+	width: 240px;
+	height: 240px;
+}
+
+.item img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 240px;
+	height: 240px;
+}
+
+.item:hover img{
+	/*background-color: rgba(239,212,239,0.5);*/
+	opacity: 0.5;
+}
+
+.desc-cols {
+	position: relative;
+	float: left;
+	top: 200px;
+	right: 300px;
+}
+
+.item-t {
+	position: relative;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.item-d {
+	position: relative;
+	font-size: 15px;
+	margin-bottom: 130px;
+}
+
+/************ DESIGN ************/
+
+#design-title {
+	position: relative;
+	top: 140px;
+	right: 100px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.design-cols {
+	position: relative;
+	float: left;
+	top: 200px;
+	right: 410px;
+}
+
+.item-di {
+	position: relative;
+	left: 150px;
+}
+
+.item-di img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 70%;
+}

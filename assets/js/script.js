@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     // jQuery Function Number 4
     $(".item").click(function() {
-        // jQuery Function Number 4
+        // jQuery Function Number 5
         let name = $(this).children().attr("src"); 
         $("#image").attr("src", name);
         // jQuery Function Number 6
@@ -31,10 +31,8 @@ $(document).ready(function() {
     });
 
     $(".item-di").click(function() {
-        // jQuery Function Number 4
         let imageURL = $(this).children().attr("src"); 
         $("#image").attr("src", imageURL);
-        // jQuery Function Number 6
         $("#lightbox").show();
     });
 
